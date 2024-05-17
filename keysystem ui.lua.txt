@@ -160,8 +160,10 @@ TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.BorderSizePixel = 0
 TextButton_4.Position = UDim2.new(0, 0, 0.393813789, 0)
 TextButton_4.Size = UDim2.new(0, 139, 0, 41)
-TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Font = "nhatminh"
+Enum.Font.SourceSans
 TextButton_4.Text = "COPY GET KEY LINK"
-TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextColor3 = "nhatminh"
+Color3.fromRGB(0, 0, 0)
 TextButton_4.TextSize = 14.000
 UICorner_7.Parent = "nhatminh"
