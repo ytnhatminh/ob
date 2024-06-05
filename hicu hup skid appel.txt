@@ -21,13 +21,13 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 _G.Primary = Color3.fromRGB(159, 237, 14)
 _G.Dark = Color3.fromRGB(35, 36, 35)
 ----------------------------------------------------------------------------------------------------------------------------------------
-_G.TieuDe = "Hiru Hub rac"
-_G.ThongBao = "Hiru Hub rac"
-_G.ThongBaoChoose = "Cracked hiru hub Blox Fruits Script"
+_G.TieuDe = "VN WORLD = (Blox Fruit)"
+_G.ThongBao = "Buy UgPhone inbox @ytnhatminh"
+_G.ThongBaoChoose = "Cracked VN World Blox Fruits Script"
 
-_G.Discord = "https://discord.gg/hi oc cac"
-_G.YouTube = "https://www.youtube.com/@ hi rủ ngu"
-_G.TikTok = "https://discord.gg/hi ru ngủ"
+_G.Discord = "https://discord.com/invite/fszbjR4Kpu"
+_G.YouTube = "https://www.youtube.com/@nhatminhzh"
+_G.TikTok = "https://discord.com/invite/fszbjR4Kpu"
 -- phá nát source l hicu
 notis = require(game.ReplicatedStorage:WaitForChild("Notification"))
 notis.new("<Color=Yellow>GG \n<Color=/>".. _G.ThongBao):Display()
@@ -153,7 +153,7 @@ for _, player in ipairs(Players:GetPlayers()) do
     end
 end
 print("Anti Cheat Bypass Active")
-print("Made By: Nguyen Vu Duy")
+print("Made By: Nhật Minh")
 warn("Định Deobf À Bé Yêu?")
 warn("Deobf Làm Gì:3")
 print("Anh Yêu Bé Mà Cứ Dms Xin Là Anh Cho:33")
@@ -374,7 +374,7 @@ local Logo = Instance.new("ImageLabel")
 	Logo.BackgroundTransparency = 1
 	Logo.Position = UDim2.new(0, 10, 0, 10)
 	Logo.Size = UDim2.new(0, 120, 0, 120)
-	Logo.Image = "rbxassetid://17468022170"]]--
+	Logo.Image = "rbxassetid://17747757759"]]--
 local Tab = Instance.new("Frame")
 Tab.Name = "Tab"
 Tab.Parent = Main
@@ -17394,7 +17394,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=17468022170"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=17747757759"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -17404,14 +17404,14 @@ UIStroke.Color = Color3.fromRGB(255, 255, 255)
 UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 ----------------------------------------------------------------------------------------------------------------------------------------
-Notification.Notify("Notification", "rac.", "rbxassetid://17468022170", {
+Notification.Notify("Notification", "Loading..", "rbxassetid://17468022170", {
     Duration = 5,       
     Main = {
         Rounding = true,
     }
     });
 wait(6)
-Notification.Notify("Notification", "rac", "rbxassetid://17468022170", {
+Notification.Notify("Notification", "Bản Test!", "rbxassetid://17468022170", {
     Duration = 10,       
     Main = {
         Rounding = true,
