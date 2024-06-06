@@ -4492,8 +4492,6 @@ end)
 
 TienTiny:AddSeperator("🧑‍💻 Developer 🧑‍💻")
 TienTiny:AddLabel("Owner: Nhật Minh (VN WORLD HUB)")
-TienTiny:AddLabel("Support: Trịnh Vũ Sang 
-TienTiny:AddLabel("Tester: Bảo Thắng 
 TienTiny:AddSeperator("Social Network")
 TienTiny:AddButton('Discord Sever', function()
 setclipboard(_G.Discord)
