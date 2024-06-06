@@ -17412,7 +17412,7 @@ Notification.Notify("Notification", "Buy UgPhone Vô Discord Nhé", "rbxassetid:
     });
 wait(6)
 Notification.Notify("Notification", "https://discord.com/invite/fszbjR4Kpu", "rbxassetid://17747757759", {
-    Duration = 10,       
+    Duration = 20,       
     Main = {
         Rounding = true,
     }
