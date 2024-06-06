@@ -21,7 +21,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 _G.Primary = Color3.fromRGB(159, 237, 14)
 _G.Dark = Color3.fromRGB(35, 36, 35)
 ----------------------------------------------------------------------------------------------------------------------------------------
-_G.TieuDe = "VN WORLD = (Blox Fruit)"
+_G.TieuDe = "VN WORLD HUB = (Blox Fruit)"
 _G.ThongBao = "Buy UgPhone inbox @ytnhatminh"
 _G.ThongBaoChoose = "Cracked VN World Blox Fruits Script"
 
@@ -30,7 +30,7 @@ _G.YouTube = "https://www.youtube.com/@nhatminhzh"
 _G.TikTok = "https://discord.com/invite/fszbjR4Kpu"
 -- phá nát source l hicu
 notis = require(game.ReplicatedStorage:WaitForChild("Notification"))
-notis.new("<Color=Yellow>GG \n<Color=/>".. _G.ThongBao):Display()
+notis.new("<Color=Yellow>Minh Đz :)) \n<Color=/>".. _G.ThongBao):Display()
 _G.SafeFarm = true
 assert(getrawmetatable)
     grm = getrawmetatable(game)
@@ -309,7 +309,7 @@ ttittles.BackgroundTransparency = 1
 ttittles.Position = UDim2.new(0,30,0.05,0)
 ttittles.Size = UDim2.new(0, 255, 0.05, 25)
 ttittles.Font = Enum.Font.SourceSansBold
-ttittles.Text = "Hiru Hub"
+ttittles.Text = "VN WORLD HUB = (Blox Fruit)"
 ttittles.TextSize = 15.000
 ttittles.TextColor3 = Color3.fromRGB(255,255,255)
 ttittles.TextXAlignment = Enum.TextXAlignment.Left
@@ -4476,9 +4476,9 @@ local S = Library:AddTab("Shop","rbxassetid://10734952479")
 local D = Library:AddTab("Devil Fruit","rbxassetid://17468022170")
 local Misc = Library:AddTab("Miscellaneous","rbxassetid://10709782582")
 --------------------------------------------------------------------------------------------------------
-TienTiny:AddSeperator("HIRU HUB")
+TienTiny:AddSeperator("VN WORLD HUB")
 TienTiny:UserMinhTien()
-local Creator = TienTiny:AddLabel('Hii '..game.Players.LocalPlayer.Name.." To HIRu HUB !! Thanks Using.")
+local Creator = TienTiny:AddLabel('Hello '..game.Players.LocalPlayer.Name.." To VN WORLD HUB !! Thanks Using.")
 
 spawn(function()
     while wait() do
@@ -4491,7 +4491,7 @@ spawn(function()
 end)
 
 TienTiny:AddSeperator("🧑‍💻 Developer 🧑‍💻")
-TienTiny:AddLabel("Owner: Nguyen Vu Duy (Hiru Hub)")
+TienTiny:AddLabel("Owner: Nhật Minh (VN WORLD HUB)")
 TienTiny:AddSeperator("Social Network")
 TienTiny:AddButton('Discord Sever', function()
 setclipboard(_G.Discord)
@@ -8893,7 +8893,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "Hiru Hab", 
+					Title = "VN WORLD", 
 					Text = "Full Moon" ,
 					Icon = "http://www.roblox.com/asset/?id=17468022170",
 					Duration = 2.5
@@ -8901,7 +8901,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "HIRU HUB", 
+					Title = "VN WORLD", 
 					Text = "Wait New Server" ,
 					Icon = "http://www.roblox.com/asset/?id=17468022170",
 					Duration = 2.5
@@ -8909,7 +8909,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "HIRU HUB", 
+					Title = "VN WORLD", 
 					Text = "Wait New Server" ,
 					Icon = "http://www.roblox.com/asset/?id=17468022170",
 					Duration = 2.5
@@ -8917,7 +8917,7 @@ M:AddToggle("Auto Find Full Moon",_G.AutoFindFullmoon,function(value)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 game.StarterGui:SetCore("SendNotification", {
-					Title = "HIRU HUB", 
+					Title = "VN WORLD HUB", 
 					Text = "Wait New Server" ,
 					Icon = "http://www.roblox.com/asset/?id=17468022170",
 					Duration = 2.5
@@ -17377,7 +17377,7 @@ spawn(function()
         end
     end)
     end)
-FakeDamage(" HIRU HUB")
+FakeDamage(" VN WORLD HUB")
 ----------------------------------------------------------------------------------------------------------------------------------------
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
