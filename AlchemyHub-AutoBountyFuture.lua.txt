@@ -3,7 +3,6 @@ local HubName = "vn world hub"
 local LogoImage = "https://www.roblox.com/catalog/17407703060"
 local ColorTheme = Color3.fromRGB(0, 255, 145)
 -- script
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/ytnhatminh/open/main/bananahub"))()
 local BountyWhenStart = game:GetService("Players").LocalPlayer.leaderstats["Bounty/Honor"].Value
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
